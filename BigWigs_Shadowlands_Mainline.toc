@@ -1,4 +1,4 @@
-## Interface: 100007
+## Interface: 100100
 
 ## Title: BigWigs [|cffeda55fShadowlands|r]
 ## Title-zhCN: BigWigs [|cffeda55f暗影界|r]
