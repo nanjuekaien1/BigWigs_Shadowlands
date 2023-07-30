@@ -44,7 +44,7 @@ function mod:GetOptions()
 		orbMarker,
 		350073, -- Torment
 		350388, -- Sorrowful Procession
-		{350469, "SAY", "SAY_COUNTDOWN", "ME_ONLY_EMPHASIZE"}, -- Malevolence
+		{350469, "SAY", "SAY_COUNTDOWN", "ME_ONLY_EMPHASIZE", "CASTBAR"}, -- Malevolence
 		malevolenceMarker,
 		malevolenceCageMarker,
 		350489, -- Lingering Malevolence

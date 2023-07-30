@@ -61,9 +61,9 @@ function mod:GetOptions()
 		356093, -- Energy Absorption
 		350455, -- Unstable Energy
 		352394, -- Radiant Energy
-		{352589, "EMPHASIZE"}, -- Meltdown
+		{352589, "EMPHASIZE", "CASTBAR"}, -- Meltdown
 		-- The Guardian
-		352538, -- Purging Protocol
+		{352538, "CASTBAR"}, -- Purging Protocol
 		350735, -- Elimination Pattern
 		355352, -- Obliterate
 		350732, -- Sunder

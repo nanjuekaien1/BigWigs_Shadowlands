@@ -77,8 +77,8 @@ end
 local crushingPrismMarker = mod:AddMarkerOption(false, "player", 1, 365297, 1, 2, 3, 4) -- Crushing Prism
 function mod:GetOptions()
 	return {
-		"stages",
-		{360115, "INFOBOX"}, -- Reclaim
+		{"stages", "CASTBAR"},
+		{360115, "INFOBOX", "CASTBAR"}, -- Reclaim
 		367079, -- Seismic Tremors
 		360114, -- Ephemeral Fissure
 		361676, -- Earthbreaker Missiles
@@ -87,7 +87,7 @@ function mod:GetOptions()
 		{365297, "SAY"}, -- Crushing Prism
 		crushingPrismMarker,
 		368363, -- Shattered Prism
-		364979, -- Shatter
+		{364979, "CASTBAR"}, -- Shatter
 		368529, -- Eternity Overdrive
 		{368969, "SAY_COUNTDOWN"}, -- Volatile Charge
 	},{

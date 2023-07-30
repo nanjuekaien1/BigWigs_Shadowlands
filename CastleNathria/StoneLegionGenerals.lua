@@ -93,7 +93,7 @@ function mod:GetOptions()
 		332406, -- Anima Infusion
 		339885, -- Anima Infection
 		342722, -- Stonewrath Exhaust
-		332683, -- Shattering Blast
+		{332683, "CASTBAR"}, -- Shattering Blast
 
 		--[[ Stage Two: Grashaal's Blitz ]]--
 		329808, -- Hardened Stone Form
