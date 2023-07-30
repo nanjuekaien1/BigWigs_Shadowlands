@@ -15,9 +15,9 @@ mod.worldBoss = 167524
 function mod:GetOptions()
 	return {
 		{327274, "CASTBAR"}, -- Unleashed Anima
-		{327246, "CASTBAR"}, -- Anima Charge
+		327246, -- Anima Charge
 		{327280, "CASTBAR"}, -- Recharge Anima
-		{327262, "ICON", "ME_ONLY_EMPHASIZE"}, -- Charged Anima Blast
+		{327262, "ICON", "ME_ONLY_EMPHASIZE", "CASTBAR"}, -- Charged Anima Blast
 		{327255, "TANK"}, -- Mark of Penitence
 	}
 end
