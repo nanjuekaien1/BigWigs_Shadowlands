@@ -29,7 +29,6 @@ end
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "ptBR")
 if L then
 	L.tear = "Rasgo" -- Short for Dimensional Tear
-	L.spirits = "Espíritos" -- Short for Fleeting Spirits
 	L.seeds = "Sementes" -- Short for Seeds of Extinction
 end
 
