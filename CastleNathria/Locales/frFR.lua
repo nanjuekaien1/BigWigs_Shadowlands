@@ -77,6 +77,7 @@ if L then
 	L.dance_yell_up = "Faites un entrechat" -- Faites un entrechat !
 	L.dance_yell_right = "On se trémousse" -- On se trémousse à droite ! -or- On se trémousse vers la droite maintenant !
 	L.dance_yell_down = "En avant le boogie" -- En avant le boogie !
+	L.dance_yell_down_2 = "En avant le boogie" -- En avant le boogie !
 	L.dance_yell_left = "Déhanché à gauche" -- Déhanché à gauche !
 end
 

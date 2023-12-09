@@ -77,6 +77,7 @@ if L then
 	L.dance_yell_up = "向前進！"
 	L.dance_yell_right = "往右擺！"
 	L.dance_yell_down = "往後跳！"
+	L.dance_yell_down_2 = "往後跳！"
 	L.dance_yell_left = "往左搖！"
 end
 

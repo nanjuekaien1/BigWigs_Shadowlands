@@ -77,6 +77,7 @@ if L then
 	L.dance_yell_up = "앞으로" -- Prance Forward!
 	L.dance_yell_right = "오른쪽으로" -- Shimmy right!
 	L.dance_yell_down = "밑으로" -- Boogie down!
+	L.dance_yell_down_2 = "밑으로" -- Boogie down!
 	L.dance_yell_left = "왼쪽으로" -- Sashay left!
 end
 

@@ -77,6 +77,7 @@ if L then
 	L.dance_yell_up = "Жете вперед" -- "Жете вперед!" -- Prance Forward!
 	L.dance_yell_right = "Па вправо" -- "Па вправо!" -- Shimmy right!
 	L.dance_yell_down = "Бризе назад" -- "Бризе назад!" -- Boogie down!
+	L.dance_yell_down_2 = "Бризе назад" -- "Бризе назад!" -- Boogie down!
 	L.dance_yell_left = "Шажок влево" -- "Шажок влево!" -- Sashay left!
 end
 

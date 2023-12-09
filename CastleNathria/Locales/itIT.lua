@@ -77,6 +77,7 @@ if L then
 	L.dance_yell_up = "Saltelli in avanti" -- Prance Forward!
 	L.dance_yell_right = "Spallucce a destra" -- Shimmy right!
 	L.dance_yell_down = "Via alle danze" -- Boogie down!
+	L.dance_yell_down_2 = "Via alle danze" -- Boogie down!
 	L.dance_yell_left = "Volteggio a sinistra" -- Sashay left!
 end
 

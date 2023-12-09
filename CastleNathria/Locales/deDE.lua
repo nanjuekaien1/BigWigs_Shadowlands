@@ -77,6 +77,7 @@ if L then
 	L.dance_yell_up = "Tänzelt vorwärts" -- Tänzelt vorwärts!
 	L.dance_yell_right = "Schlenker nach rechts" -- Schlenker nach rechts!
 	L.dance_yell_down = "Tänzelt nach unten" -- Tänzelt nach unten!
+	L.dance_yell_down_2 = "Tänzelt nach unten" -- Tänzelt nach unten!
 	L.dance_yell_left = "Gleitet nach links" -- Gleitet nach links!
 end
 

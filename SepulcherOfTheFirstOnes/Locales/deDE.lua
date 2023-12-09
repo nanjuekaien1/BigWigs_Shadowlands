@@ -31,6 +31,8 @@ if L then
 
 	L.custom_on_ring_timers = "Individuelle Kranz Timer"
 	L.custom_on_ring_timers_desc = "Desintegrationskranz löst Ringe aus. Dies zeigt Leisten für den Bewegungsbeginn jedes Rings. Nutzt die Einstellungen von Desintegrationskranz."
+
+	L.absorb_text = "%s (%.0f%%)"
 end
 
 L = BigWigs:NewBossLocale("Prototype Pantheon", "deDE")
@@ -69,6 +71,8 @@ if L then
 
 	L.bomb_dropped = "Bombe fallen gelassen"
 	L.volatile_charges_new = "Neue Bomben!"
+
+	L.absorb_text = "%s (%.0f%%)"
 end
 
 L = BigWigs:NewBossLocale("Anduin Wrynn", "deDE")

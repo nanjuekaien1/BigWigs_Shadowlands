@@ -77,6 +77,7 @@ if L then
 	L.dance_yell_up = "Quadril pra frente!" -- Prance Forward!
 	L.dance_yell_right = "Requebra pra direita!" -- Shimmy right!
 	L.dance_yell_down = "Rebola embaixo!" -- Boogie down!
+	L.dance_yell_down_2 = "Rebola embaixo!" -- Boogie down!
 	L.dance_yell_left = "Quebra pra esquerda!" -- Sashay left!
 end
 
