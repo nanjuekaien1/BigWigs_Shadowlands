@@ -126,7 +126,7 @@ function mod:GetOptions()
 		[-21954] = -21951, -- Ministers of Vice
 		[326078] = -22231, -- Infusing Essences
 		[328889] = -22089, -- High Torturer Darithos
-		[338600] = "mythic",
+		[337859] = "mythic",
 	},{
 		[328479] = CL.fixate, -- Eyes on Target (Fixate)
 		[337859] = CL.shield, -- Cloak of Flames (Shield)
