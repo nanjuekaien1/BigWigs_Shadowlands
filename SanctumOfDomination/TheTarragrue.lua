@@ -180,7 +180,7 @@ function mod:ChainsOfEternityApplied(args)
 	self:TargetMessage(args.spellId, "yellow", args.destName, CL.count:format(L.chains, chainsCount))
 	self:PrimaryIcon(args.spellId, args.destName)
 	if self:Me(args.destGUID) then
-		self:Say(args.spellId, CL.count:format(L.chains, chainsCount), nil, CL.count:format("Chains", chainsCount))
+		self:Say(args.spellId, CL.count:format(L.chains, chainsCount), nil, ("Chains (%d)"):format(chainsCount))
 		self:SayCountdown(args.spellId, 8)
 		self:PlaySound(args.spellId, "warning")
 	end

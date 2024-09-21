@@ -165,7 +165,7 @@ do
 		playerList[count] = args.destName
 		playerList[args.destName] = count -- Set raid marker
 		if self:Me(args.destGUID) then
-			self:Say(335114, CL.count_rticon:format(self:SpellName(335114), count, count), nil, CL.count_rticon:format("Sinseeker", count, count))
+			self:Say(335114, CL.count_rticon:format(self:SpellName(335114), count, count), nil, ("Sinseeker (%d{rt%d})"):format(count, count))
 			self:SayCountdown(335114, 5.7, count) -- _applied to damage, varys with distance
 			self:PlaySound(335114, "warning")
 			self:Flash(335114)

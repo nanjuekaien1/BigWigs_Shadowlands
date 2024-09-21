@@ -380,7 +380,11 @@ do
 		if self:Me(args.destGUID) then
 			isOnMe = true
 			self:PlaySound(332664, "alarm")
-			self:Say(332664, CL.rticon:format(args.spellId == 340477 and CL.big_add or CL.small_add, icon), nil, CL.rticon:format(args.spellId == 340477 and "Big Add" or "Small Add", icon))
+			if args.spellId == 340477 then
+				self:Say(332664, CL.rticon:format(CL.big_add, icon), nil, ("Big Add ({rt%d})"):format(icon))
+			else -- 332664
+				self:Say(332664, CL.rticon:format(CL.small_add, icon), nil, ("Small Add ({rt%d})"):format(icon))
+			end
 			self:SayCountdown(332664, 10, icon)
 			self:OpenProximity(332664, 8)
 		end

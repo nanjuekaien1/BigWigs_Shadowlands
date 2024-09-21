@@ -414,7 +414,7 @@ do
 		playerList[count] = args.destName
 		if self:Me(args.destGUID) then
 			self:PersonalMessage(args.spellId)
-			self:Say(args.spellId, CL.count_rticon:format(args.spellName, count, count), nil, CL.count_rticon:format("Expulsion", count, count))
+			self:Say(args.spellId, CL.count_rticon:format(args.spellName, count, count), nil, ("Expulsion (%d{rt%d})"):format(count, count))
 			self:SayCountdown(args.spellId, 3, count, 2)
 			self:PlaySound(args.spellId, "warning")
 		end
@@ -693,7 +693,7 @@ do
 		if self:Me(args.destGUID) then
 			self:PersonalMessage(347609, nil, CL.count:format(L.arrow, wailingArrowPlayerCount))
 			self:PlaySound(347609, "alarm")
-			self:Say(347609, CL.count_rticon:format(L.arrow, wailingArrowPlayerCount, wailingArrowPlayerCount), nil, CL.count_rticon:format("Arrow", wailingArrowPlayerCount, wailingArrowPlayerCount))
+			self:Say(347609, CL.count_rticon:format(L.arrow, wailingArrowPlayerCount, wailingArrowPlayerCount), nil, ("Arrow (%d{rt%d})"):format(wailingArrowPlayerCount, wailingArrowPlayerCount))
 			self:SayCountdown(347609, 9)
 			self:TargetBar(347609, 9, args.destName, CL.count:format(L.arrow, wailingArrowPlayerCount))
 		end

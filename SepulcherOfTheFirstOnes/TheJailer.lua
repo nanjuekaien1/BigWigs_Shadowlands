@@ -520,7 +520,7 @@ do
 		playerList[args.destName] = icon -- Set raid marker
 		if self:Me(args.destGUID) then
 			self:PlaySound(args.spellId, "warning")
-			self:Say(args.spellId, CL.count_rticon:format(CL.bomb, icon, icon), nil, CL.count_rticon:format("Bomb", icon, icon))
+			self:Say(args.spellId, CL.count_rticon:format(CL.bomb, icon, icon), nil, ("Bomb (%d{rt%d})"):format(icon, icon))
 			self:SayCountdown(args.spellId, 7, icon)
 			if self:CheckOption("rune_of_damnation_countdown", "BAR") then -- Show Jumpbar, instead of TargetBar
 				self:Bar("rune_of_damnation_countdown", 5.5, L.jump, 360281) -- Jump a bit earlier
@@ -617,7 +617,7 @@ do
 		playerList[args.destName] = icon -- Set raid marker
 		if self:Me(args.destGUID) then
 			self:PlaySound(args.spellId, "warning")
-			self:Say(args.spellId, CL.count_rticon:format(L.rune_of_compulsion, icon, icon), nil, CL.count_rticon:format("Charms", icon, icon))
+			self:Say(args.spellId, CL.count_rticon:format(L.rune_of_compulsion, icon, icon), nil, ("Charms (%d{rt%d})"):format(icon, icon))
 			self:SayCountdown(args.spellId, 4, icon)
 		end
 		self:TargetsMessage(args.spellId, "cyan", playerList, nil, CL.count:format(L.rune_of_compulsion, runeOfCompulsion-1))
@@ -716,7 +716,7 @@ do
 		playerList[args.destName] = icon -- Set raid marker
 		if self:Me(args.destGUID) then
 			self:PlaySound(args.spellId, "warning")
-			self:Say(args.spellId, CL.count_rticon:format(L.rune_of_domination, icon, icon), nil, CL.count_rticon:format("Group Soaks", icon, icon))
+			self:Say(args.spellId, CL.count_rticon:format(L.rune_of_domination, icon, icon), nil, ("Group Soaks (%d{rt%d})"):format(icon, icon))
 			self:SayCountdown(args.spellId, 6, icon)
 		end
 		self:TargetsMessage(args.spellId, "cyan", playerList, nil, CL.count:format(L.rune_of_domination, runeOfDominationCount-1))

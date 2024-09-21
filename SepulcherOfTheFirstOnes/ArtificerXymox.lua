@@ -322,7 +322,7 @@ do
 		playerList[count] = args.destName
 		playerList[args.destName] = count -- Set raid marker
 		if self:Me(args.destGUID) then
-			self:Say(362721, CL.count_rticon:format(L.wormhole, count, count), nil, CL.count_rticon:format("Wormhole", count, count))
+			self:Say(362721, CL.count_rticon:format(L.wormhole, count, count), nil, ("Wormhole (%d{rt%d})"):format(count, count))
 			self:SayCountdown(362721, 8, count)
 			self:PlaySound(362721, "warning")
 		end

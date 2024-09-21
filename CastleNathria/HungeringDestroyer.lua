@@ -224,7 +224,7 @@ do
 				miasmaOnMe = true
 				self:PlaySound(args.spellId, "alarm")
 				if not self:LFR() then
-					self:Yell(args.spellId, CL.count_rticon:format(L.miasma, count, count), nil, CL.count_rticon:format("Miasma", count, count))
+					self:Yell(args.spellId, CL.count_rticon:format(L.miasma, count, count), nil, ("Miasma (%d{rt%d})"):format(count, count))
 					if not scheduledChatMsg and self:GetOption("custom_on_repeating_yell_miasma") then
 						scheduledChatMsg = true
 						self:SimpleTimer(RepeatingChatMessages, 2)

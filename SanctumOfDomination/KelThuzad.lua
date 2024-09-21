@@ -372,7 +372,7 @@ do
 		playerList[count] = args.destName
 		playerList[args.destName] = icon -- Set raid marker
 		if self:Me(args.destGUID) then
-			self:Say(346459, CL.rticon:format(L.spike, count), nil, CL.rticon:format("Spike", count))
+			self:Say(346459, CL.rticon:format(L.spike, count), nil, ("Spike ({rt%d})"):format(count))
 			self:SayCountdown(346459, 5, count)
 			self:PlaySound(346459, "warning")
 		end

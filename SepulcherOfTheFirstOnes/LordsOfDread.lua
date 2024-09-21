@@ -397,7 +397,7 @@ do
 		if self:Me(args.destGUID)then
 			local sayIcon = bitesSayTimer and 7 or nil
 			local sayText = bitesSayTimer and CL.count_rticon:format(L.fearful_trepidation, icon, sayIcon) or L.fearful_trepidation
-			local englishText = bitesSayTimer and CL.count_rticon:format("Fears", icon, sayIcon) or "Fears"
+			local englishText = bitesSayTimer and ("Fears (%d{rt%d})"):format(icon, sayIcon) or "Fears"
 			self:Say(args.spellId, sayText, nil, englishText)
 			self:SayCountdown(args.spellId, 8, sayIcon, 5)
 			if bitesSayTimer then
