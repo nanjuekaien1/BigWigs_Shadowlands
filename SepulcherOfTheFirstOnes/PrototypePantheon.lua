@@ -491,7 +491,7 @@ do
 			local icon = worldMarkers[i]
 			if iconList[i].player == self:UnitName("player") then
 				self:PlaySound(361745, "warning")
-				self:Yell(361745, CL.count_rticon:format(self:SpellName(361745), i, icon))
+				self:Yell(361745, CL.count_rticon:format(self:SpellName(361745), i, icon), nil, CL.count_rticon:format("Night Hunter", i, icon))
 				self:YellCountdown(361745, 8, icon)
 			end
 			playerList[#playerList+1] = iconList[i].player
